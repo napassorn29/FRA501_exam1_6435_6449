@@ -9,6 +9,7 @@
 
 # proposition
 This package contains launch file which spawn 4 turtles from turtlesim_plus package. Each of them will droping 20 pizzas to form a shape of alphabets "F", "I", "B" and "O".
+
 # Installation
 1.) Clone the repo to the src directory of your workspace. You must unzip and put each folder in the src directory.
 2.) Build "turtlesim_control" and "turtlesim_interfaces" in your workspace.
@@ -25,7 +26,7 @@ ros2 launch turtlesim_plus_control following.launch.py
 ```
 
 # Schematics of System
-![Uploading image.png…]()
+![image](https://github.com/napassorn29/FRA501_exam1_6435_6449/assets/119843578/3024b439-d3fc-4076-bb44-5a4f58a6dbe2)
 service
 - /remove_turtle
 - /spawn_turtle
