@@ -14,11 +14,24 @@ TurtleSim Plus จำนวน 4 ตัว โดยที่หุ่นยน�
 # Installation
 1.) Clone the repo to the src directory of your workspace. You must unzip and put each folder in the src directory.
 2.) Build "turtlesim_control" and "turtlesim_interfaces" in your workspace.
+```
+cd ~/[your_workspace]
+colcon build --packages-select turtlesim_plus_control turtlesim_plus_interfaces
+source install/setup.bash
+```
 
 # Testing out turtlesim_control
-1.) Terminal 1: Run turtlesim_node
-2.) Terminal 2: Start a controller
-3.) Terminal 3: Start & run a scheduler (change the workspace name in the command)
-4.) Terminal 4 & 5: While running those 3 terminals, you can monitor the heartbeat from each custom node
+- Terminal 1: Run launch file in terminal
+```
+ros2 launch turtlesim_plus_control following.launch.py
+```
 
 # Schematics of System
+![image](https://github.com/napassorn29/FRA501_exam1_6435_6449/assets/119843578/d0898588-2f54-42e3-a431-2780186b5863)
+service
+- /remove_turtle
+- /spawn_turtle
+- /spawn_pizza
+
+
+
