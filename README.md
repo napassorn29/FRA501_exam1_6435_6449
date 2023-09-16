@@ -27,7 +27,7 @@ ros2 launch turtlesim_plus_control following.launch.py
 ```
 
 # Schematics of System
-![image](https://github.com/napassorn29/FRA501_exam1_6435_6449/assets/119843578/d0898588-2f54-42e3-a431-2780186b5863)
+![Uploading image.png…]()
 service
 - /remove_turtle
 - /spawn_turtle
