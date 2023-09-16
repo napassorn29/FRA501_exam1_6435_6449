@@ -1,11 +1,5 @@
 # FRA501_exam1_6435_6449
  This package is associated to FRA501 : Robotics DevOps class in FIBO, KMUTT for the reason to study about developing system by using ROS2. The relevant topics are include:
-- Publisher/Subscriber
-- Service/Client
-- Custom interface
-- Parameter in a class
-- Launch file
-- How to pass arguments to python node
 
 # proposition
 This package contains launch file which spawn 4 turtles from turtlesim_plus package. Each of them will droping 20 pizzas to form a shape of alphabets "F", "I", "B" and "O".
